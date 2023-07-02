@@ -473,8 +473,6 @@ margin-bottom: 72px;
     .media-web {
         display: flex;
         gap: 16px;
-        width: 40px;
-        height: 40px;
         
     }
     .sending-web {
@@ -492,9 +490,6 @@ margin-bottom: 72px;
     .soc-icon-team :hover, .soc-icon-team :focus {
         background-color: #404bbf;
     }
-    .web-icons {
-        transition : 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
     .footer-icons {
         fill: #F4F4FD;
     }
@@ -505,7 +500,7 @@ margin-bottom: 72px;
     .web-defs {
         margin-right: 120px;
     }
-    .media-web :hover {
+    .sending-web:hover {
         background-color: #31d0aa;
     }
     .sending-web:focus {
@@ -592,7 +587,7 @@ margin-bottom: 72px;
     .hero-main-btn:hover, .hero-main-btn:focus {
     background-color: #404BBF;
     }
-    .hero-main-btn:hover, .hero-main-btn:focus {
+    .hero-main-btn:hover,.hero-main-btn:focus {
         color:#FFFFFF;
     }
     .picture {
